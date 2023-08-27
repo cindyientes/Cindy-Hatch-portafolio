@@ -1,6 +1,7 @@
-body{
+body {
     font-family: 'Varela Round' sans-serif, 'Arial';
 }
+
 header {
     background-color: #f9f9f9;
     font-family: 'Space Mono', monospace, 'Arial';
@@ -50,14 +51,14 @@ main {
     padding: 20px;
 }
 
-.hero img{
+.hero img {
     max-width: 20%;
-    height: fit-content;
+    height: 28em;
     margin-left: 15px;
     border-radius: 8px;
 }
 
-.hero-text{
+.hero-text {
     font-family: 'Varela Round' sans-serif, 'Arial';
     font-size: 36px;
     text-align: left;
@@ -71,7 +72,7 @@ aside {
     justify-content: center;
     background-color: #f9f9f9;
     height: 450px;
-    
+
 }
 
 .container {
@@ -105,4 +106,20 @@ h2,
 h3 {
     font-family: 'Varela Round', sans-serif, arial;
     font-size: 2rem;
+}
+
+article img {
+    border-radius: 8px;
+    margin: 10px;
+    max-width: 20em;
+    height: 20em;
+}
+
+about-container{
+    margin-top: 3em;
+}
+about-text {
+    font-family: 'Varela Round', sans-serif, arial;
+    font-size: 2rem;
+    
 }
