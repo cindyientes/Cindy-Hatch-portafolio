@@ -91,6 +91,7 @@ article {
     height: 100%;
     font-family: 'Varela Round' sans-serif, 'Arial';
     margin-bottom: 40px;
+    border: .1px solid #f9f9f9;
 }
 
 footer {
@@ -101,14 +102,19 @@ footer {
 }
 
 body {
-    font-family: 'Space Mono' monospace, 'Arial';
+    font-family: 'Space Mono', monospace, 'Arial';
+    font-size: medium;
 }
 
 h1,
-h2,
-h3 {
+h2 {
     font-family: 'Varela Round', sans-serif, 'arial';
     font-size: 2rem;
+}
+
+h3 {
+    font-family: 'Varela Round', sans-serif, 'arial';
+    font-size: medium;
 }
 
 article img {
