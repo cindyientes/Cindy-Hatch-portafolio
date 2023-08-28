@@ -1,12 +1,17 @@
-body {
-    font-family: 'Varela Round' sans-serif, 'Arial';
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: #f9f9f9;
     font-family: 'Space Mono', monospace, 'Arial';
     font-size: medium;
-    height: 70px;
+    height: fit-content;
     padding: 20px 20px;
     font-size: 18px;
     display: flex;
@@ -15,10 +20,32 @@ header {
     width: 100%;
 }
 
+@media (max-width: 767px) {
+    header ul {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+header li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header a {
+    font-size: 18px;
+    padding: 5px;
+    display: block;
+    height: auto;
+    max-height: 2em;
+    overflow: visible;
+}
+
 ul {
     font-family: 'Space Mono' monospace, 'Arial';
     list-style: none;
     display: flex;
+    color: #440419;
 }
 
 li {
@@ -30,10 +57,11 @@ a {
     text-decoration: none;
     color: #440419;
     cursor: pointer;
+    overflow: visible;
 }
 
 a:hover {
-    color: black;
+    color: #440419;
 }
 
 main {
@@ -56,7 +84,7 @@ main {
     height: 24em;
     margin-left: 15px;
     border-radius: 8px;
-   }
+}
 
 .hero-text {
     font-family: 'Varela Round' sans-serif, 'Arial';
@@ -66,18 +94,9 @@ main {
     margin-bottom: 80px;
 }
 
-aside {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #f9f9f9;
-    height: 450px;
-
-}
-
 .container {
-    background-color: #440419;
+    background-color: #f9f9f9;
+    padding: 20px;
 }
 
 article {
@@ -92,6 +111,13 @@ article {
     font-family: 'Varela Round' sans-serif, 'Arial';
     margin-bottom: 40px;
     border: .1px solid #f9f9f9;
+}
+
+.article-content {
+    font-family: 'Varela Round' sans-serif, 'Arial';
+    font-size: medium;
+    margin-bottom: 40px;
+    overflow: visible;
 }
 
 footer {
@@ -125,11 +151,11 @@ article img {
     margin-top: 80px;
 }
 
-.about-container{
-  font-family: 'Varela Round', sans-serif, 'Arial';
-  text-align: center;
-  margin-top: 80px;
-  margin-bottom: 80px;
+.about-container {
+    font-family: 'Varela Round', sans-serif, 'Arial';
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .about-text {
@@ -139,4 +165,3 @@ article img {
     margin-left: 20px;
     margin-top: 80px;
 }
-
