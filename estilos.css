@@ -193,3 +193,7 @@ p {
     align-content: center;
     justify-content: center;
 }
+
+form {
+    color: #440419;
+}
