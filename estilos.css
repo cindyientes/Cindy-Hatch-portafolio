@@ -141,8 +141,9 @@ h2 {
 
 h3 {
     font-family: 'Varela Round', sans-serif, 'arial';
-    font-size: medium;
-    color: #f9f9f9;
+    font-size: 1rem;
+    color: #440419;
+    text-align: center;
 }
 
 article img {
@@ -184,4 +185,11 @@ article img {
     transform: translate(-50%, -50%);
     background-color: rgba(255, 255, 255, 0.7);
     padding: 10%;
+}
+
+p {
+    margin-top: 10px;
+    margin-left: 30px;
+    align-content: center;
+    justify-content: center;
 }
