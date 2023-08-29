@@ -1,10 +1,7 @@
-body,
-h1,
-h2,
-h3,
-p {
+body {
     margin: 0;
     padding: 0;
+    background-color: #f9f9f9;
 }
 
 header {
@@ -138,12 +135,14 @@ h2 {
     font-family: 'Varela Round', sans-serif, 'arial';
     font-size: 2rem;
     text-align: center;
+    color: #440419;
     
 }
 
 h3 {
     font-family: 'Varela Round', sans-serif, 'arial';
     font-size: medium;
+    color: #f9f9f9;
 }
 
 article img {
