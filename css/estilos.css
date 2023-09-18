@@ -153,18 +153,12 @@ h1 {
   color: #440419;
 }
 
-h2 {
-  font-family: "Varela Round", sans-serif, "Arial";
-  font-size: 1rem;
-  text-align: center;
-  color: #440419;
-}
-
+h2,
 h3 {
   font-family: "Varela Round", sans-serif, "Arial";
   font-size: 1rem;
-  color: #440419;
   text-align: center;
+  color: #440419;
 }
 
 article img {
@@ -193,6 +187,7 @@ article img {
 
 .image-container {
   position: relative;
+  width: 100%;
 }
 
 .image {

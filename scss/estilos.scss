@@ -100,24 +100,24 @@ main {
     margin-bottom: 80px;
     position: relative;
     z-index: 1;
-  }
-  
-  @media screen and (max-width: 375px) and (max-height: 667px) {
+}
+
+@media screen and (max-width: 375px) and (max-height: 667px) {
     .hero-text {
-      font-size: 24px; 
-      margin-bottom: 40px; 
-      z-index: 2;
+        font-size: 24px;
+        margin-bottom: 40px;
+        z-index: 2;
     }
-    
+
     .hero {
-      display: flex;
-      align-items: center;
+        display: flex;
+        align-items: center;
     }
-  
+
     .hero img {
-      width: 100%;
+        width: 100%;
     }
-  }
+}
 
 .container {
     background-color: $color-fondo;
@@ -150,6 +150,7 @@ footer {
     height: 60px;
     text-align: center;
     margin-top: 80px;
+    $color-enlace: #440419;
 }
 
 body {
@@ -157,25 +158,19 @@ body {
     font-size: medium;
 }
 
-h1{
+h1 {
     font-family: 'Space Mono', monospace, 'Arial';
     font-size: 2rem;
     text-align: center;
     color: $color-enlace;
 }
 
-h2 {
-    font-family: 'Varela Round', sans-serif, 'Arial';
-    font-size: 1rem;
-    text-align: center;
-    color: $color-enlace;
-}
-
+h2,
 h3 {
     font-family: 'Varela Round', sans-serif, 'Arial';
     font-size: 1rem;
-    color: $color-enlace;
     text-align: center;
+    color: $color-enlace;
 }
 
 article img {
@@ -203,6 +198,7 @@ article img {
 
 .image-container {
     position: relative;
+    width: 100%;
 }
 
 .image {
