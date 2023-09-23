@@ -149,7 +149,7 @@ body {
 
 h1 {
   font-family: "Space Mono", monospace, "Arial";
-  font-size: 2rem;
+  font-size: 3rem;
   text-align: center;
   color: #440419;
   margin-bottom: 30px;
@@ -158,10 +158,11 @@ h1 {
 h2,
 h3 {
   font-family: "Varela Round" sans-serif, "Arial";
-  font-size: 1rem;
+  font-size: 2rem;
   text-align: center;
   color: #440419;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 article img {
@@ -219,32 +220,29 @@ form {
   color: #440419;
 }
 
-.column {
-  background-color: #f9f9f9;
-  border: 1px solid #f9f9f9;
-  padding: 20px;
-  text-align: center;
-  font-family: "Varela Round" sans-serif, "Arial";
+.col-md-4 {
+  background-color: #440419;
+  border: 1px solid #440419;
   margin: 10px;
   border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
-.column h2 {
+.col-md-4 h2 {
   font-size: 24px;
-  margin-bottom: 10px;
-  color: #440419;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #f9f9f9;
   font-family: "Space Mono", monospace, "Arial";
 }
-.column p {
+.col-md-4 p {
   font-size: medium;
   margin-bottom: 20px;
+  margin-right: 20px;
   overflow: visible;
-  color: #440419;
+  color: #f9f9f9;
+  font-family: "Varela Round" sans-serif, "Arial";
+  text-align: left;
 }
-.column img {
+.col-md-4 img {
   max-width: 100%;
   height: auto;
   border-radius: 8px;

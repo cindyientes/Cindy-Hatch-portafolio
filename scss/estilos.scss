@@ -2,7 +2,7 @@ $color-fondo: #f9f9f9;
 $color-contraste: #440419;
 $fuente: 'Space Mono', monospace, 'Arial';
 $fuente2: 'Varela Round' sans-serif, 'Arial';
-$columnBackgroundColor: #f9f9f9;
+$columnBackgroundColor: #440419;
 
 
 body {
@@ -164,7 +164,7 @@ body {
 
 h1 {
     font-family: 'Space Mono', monospace, 'Arial';
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     color: $color-contraste;
     margin-bottom: 30px;
@@ -173,10 +173,11 @@ h1 {
 h2,
 h3 {
     font-family: $fuente2;
-    font-size: 1rem;
+    font-size: 2rem;
     text-align: center;
     color: $color-contraste;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 article img {
@@ -232,33 +233,28 @@ form {
     color: $color-contraste;
 }
 
-
-.column {
+.col-md-4 {
     background-color: $columnBackgroundColor;
     border: 1px solid $columnBackgroundColor;
-    padding: 20px;
-    text-align: center;
-    font-family: $fuente2;
     margin: 10px;
     border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
 
     h2 {
         font-size: 24px;
-        margin-bottom: 10px;
-        color: #440419;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #f9f9f9;
         font-family: $fuente;
     }
 
     p {
         font-size: medium;
         margin-bottom: 20px;
+        margin-right: 20px;
         overflow: visible;
-        color: #440419;
+        color: #f9f9f9;
+        font-family: $fuente2;
+        text-align: left;
     }
 
     img {
