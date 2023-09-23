@@ -128,7 +128,7 @@ article {
 }
 
 .article-content {
-  font-family: "Varela Round" sans-serif, "Arial";
+  font-family: "Varela Round", sans-serif, "Arial";
   font-size: medium;
   margin-bottom: 40px;
   overflow: visible;
@@ -187,7 +187,6 @@ article img {
 
 .image-container {
   position: relative;
-  width: 100%;
 }
 
 .image {
