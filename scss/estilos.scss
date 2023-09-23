@@ -1,7 +1,8 @@
 $color-fondo: #f9f9f9;
 $color-contraste: #440419;
 $fuente: 'Space Mono', monospace, 'Arial';
-$fuente2: $fuente2;
+$fuente2: 'Varela Round' sans-serif, 'Arial';
+$columnBackgroundColor: #f9f9f9;
 
 
 body {
@@ -227,4 +228,41 @@ p {
 
 form {
     color: $color-contraste;
+}
+
+
+.column {
+    background-color: $columnBackgroundColor;
+    border: 1px solid $columnBackgroundColor;
+    padding: 20px;
+    text-align: center;
+    font-family: $fuente2;
+    margin: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: #440419;
+        font-family: $fuente;
+    }
+
+    p {
+        font-size: medium;
+        margin-bottom: 20px;
+        overflow: visible;
+        color: #440419;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-top: 10px;
+    }
 }
